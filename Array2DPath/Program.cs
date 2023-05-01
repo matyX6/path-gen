@@ -6,7 +6,7 @@ namespace Array2DPath
     {
         public static void Main(string[] args)
         {
-            char[,] pathArray = new char[8, 80];
+            char[,] pathArray = new char[8, 160];
             
             // populate
             for (int x = 0; x < pathArray.GetLength(0); x++)
@@ -27,7 +27,8 @@ namespace Array2DPath
                 pathArray[newIndex - 1, y] = 'X';
                 pathArray[newIndex - 2, y] = 'X';
                 
-                newIndex = random.Next(Math.Max(newIndex - 1, 2), Math.Min(newIndex + 2, 8));
+                if (y % 2 == 1)
+                    newIndex = random.Next(Math.Max(newIndex - 1, 2), Math.Min(newIndex + 2, 8));
             }
             
             // write line
