@@ -6,7 +6,16 @@ namespace Array2DPath
     {
         public static void Main(string[] args)
         {
-            int[,] pathArray = new int[8, 80];
+            char[,] pathArray = new char[8, 80];
+            
+            // populate
+            for (int x = 0; x < pathArray.GetLength(0); x++)
+            {
+                for (int y = 0; y < pathArray.GetLength(1); y++)
+                {
+                    pathArray[x, y] = '-';
+                }
+            }
 
             Random random = new Random();
             int newIndex = random.Next(2, 8);
@@ -14,9 +23,9 @@ namespace Array2DPath
             // assign path
             for (int y = 0; y < pathArray.GetLength(1); y++)
             {
-                pathArray[newIndex, y] = 1;
-                pathArray[newIndex - 1, y] = 1;
-                pathArray[newIndex - 2, y] = 1;
+                pathArray[newIndex, y] = 'X';
+                pathArray[newIndex - 1, y] = 'X';
+                pathArray[newIndex - 2, y] = 'X';
                 
                 newIndex = random.Next(Math.Max(newIndex - 1, 2), Math.Min(newIndex + 2, 8));
             }
