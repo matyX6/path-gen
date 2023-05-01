@@ -1,0 +1,6 @@
+/Users/mjambresic/Documents/Repos/Rider/Array2DPath/Array2DPath/bin/Debug/Array2DPath.exe
+/Users/mjambresic/Documents/Repos/Rider/Array2DPath/Array2DPath/bin/Debug/Array2DPath.pdb
+/Users/mjambresic/Documents/Repos/Rider/Array2DPath/Array2DPath/obj/Debug/Array2DPath.csproj.AssemblyReference.cache
+/Users/mjambresic/Documents/Repos/Rider/Array2DPath/Array2DPath/obj/Debug/Array2DPath.csproj.CoreCompileInputs.cache
+/Users/mjambresic/Documents/Repos/Rider/Array2DPath/Array2DPath/obj/Debug/Array2DPath.exe
+/Users/mjambresic/Documents/Repos/Rider/Array2DPath/Array2DPath/obj/Debug/Array2DPath.pdb
