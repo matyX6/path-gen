@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "path-gen", "path-gen\path-gen.csproj", "{7338A8D6-1D27-44A5-9959-729B0CFCF0DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7338A8D6-1D27-44A5-9959-729B0CFCF0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7338A8D6-1D27-44A5-9959-729B0CFCF0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7338A8D6-1D27-44A5-9959-729B0CFCF0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7338A8D6-1D27-44A5-9959-729B0CFCF0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
