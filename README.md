@@ -1,5 +1,5 @@
 
-![ppg](https://github.com/user-attachments/assets/45a2bd49-b197-4398-b042-e4838d14b74f)
+# Path Generation Algorithm
 
 A reusable, grid-based procedural path generation algorithm, designed to create dynamic and efficient pathways.
 
